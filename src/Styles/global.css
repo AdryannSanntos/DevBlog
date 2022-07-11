@@ -18,3 +18,15 @@ body{
 h2{
   @apply text-xl font-bold;
 }
+
+h1{
+  @apply text-2xl font-bold;
+}
+
+code{
+  @apply bg-gray-500 p-1 rounded-sm;
+}
+
+p{
+  @apply text-[15px];
+}
