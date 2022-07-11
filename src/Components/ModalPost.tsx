@@ -78,7 +78,7 @@ export function ModalPost(props: ModalPostProps) {
     return <h1>Carregando post</h1>
   }
   return (
-    <Modal isOpen={isOpen} onRequestClose={closeModal} style={customStyles}>
+    <Modal isOpen={isOpen} style={customStyles}>
       <div className="">
         <div className="flex justify-end">
           <Link to={'/'}>
